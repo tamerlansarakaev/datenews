@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: PT Sans;
+  font-weight: 700;
+}
+
+.App {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  margin-top: 170px;
+  width: 100%;
+  z-index: 2;
+
+  &-title {
+    max-width: 353px;
+    color: #42567a;
+    font-size: 56px;
+  }
+
+  .line-title {
+    height: 120px;
+    width: 5px;
+    background: linear-gradient(180deg, #3877ee -5%, #ef5da8 85%);
+  }
+
+  .head-container {
+    display: flex;
+    gap: 78px;
+    max-height: 134px;
+    align-items: center;
+  }
+}
