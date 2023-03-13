@@ -1,0 +1,22 @@
+.box-lines {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  hr {
+    border: 1px solid #edeff2;
+    position: absolute;
+    width: 100%;
+  }
+  .central-line {
+    rotate: 90deg;
+  }
+
+  .central-row-line {
+    max-width: 1500px;
+    left: 50%;
+    transform: translateX(50%);
+    rotate: 180deg;
+    bottom: 50%;
+  }
+}

@@ -1,0 +1,33 @@
+.circle-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  position: relative;
+  margin-left: 20px;
+  min-height: 530px;
+  width: 100%;
+
+  .circle {
+    top: -143px;
+    left: 50%;
+    transform: translatex(-50%);
+    max-width: 530px;
+    max-height: 530px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #42567a;
+    border-radius: 50%;
+  }
+  font-family: PT Sans;
+  font-weight: 700;
+  font-size: 200px;
+
+  .start-years {
+    color: #5d5fef;
+  }
+
+  .end-years {
+    color: #ef5da8;
+  }
+}
